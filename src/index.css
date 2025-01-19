@@ -76,7 +76,7 @@ html {
 
 /* Gradient Text for "Sandeep Chinnaboina" */
 .text-gradient-name {
-  background: linear-gradient(to right, #4f46e5, #ff0b0b); /* Purple gradient */
+  background: linear-gradient(to right, #4f46e5, #20f124); /* Purple gradient */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -112,3 +112,5 @@ html {
   background-size: 200% 200%;
   animation: textGlow 4s ease infinite;
 }
+
+

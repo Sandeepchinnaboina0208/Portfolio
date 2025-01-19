@@ -3,6 +3,7 @@ import Navigation from './components/Navigation';
 import BackgroundVideo from './components/BackgroundVideo';
 import Section from './components/Section';
 import TypeWriter from './components/TypeWriter';
+import Footer from './components/Footer';
 import profileImage from './images/profile.png'; 
 import workshopImage from './images/workshop.png'; 
 import astroImage from './images/asro1.webp'; 
@@ -11,20 +12,20 @@ import {
   Github, 
   Linkedin, 
   Mail, 
-  Code, 
-  Briefcase, 
-  Coffee, 
+  GraduationCap,
+  School,
+  BookOpen,
   ExternalLink,
-  FileCode, // Java
-  Terminal, // Python
-  FileJson, // JavaScript
-  Globe, // Django
-  Atom, // React
-  FileType2, // HTML
-  Palette, // CSS
-  Database, // MySQL
-  CircleDot, // MongoDB
-  GitBranch // Git
+  FileCode,
+  Terminal,
+  FileJson,
+  Globe,
+  Atom,
+  FileType2,
+  Palette,
+  Database,
+  CircleDot,
+  GitBranch
 } from 'lucide-react';
 
 
@@ -74,42 +75,46 @@ function App() {
               <Mail size={24} />
             </a>
           </div>
+          
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-3xl mx-auto animate-fade-in-delay-3">
-      <div className="bg-gray-800/30 backdrop-blur-sm p-6 rounded-lg hover:bg-gray-800/50 transition-all duration-300">
-        <Code className="w-8 h-8 mb-3 mx-auto text-blue-400" />
-        <h3 className="font-semibold mb-2 text-lg">Clean Code</h3>
-        <p className="text-sm text-gray-400">Writing maintainable and scalable solutions</p>
-      </div>
-      <div className="bg-gray-800/30 backdrop-blur-sm p-6 rounded-lg hover:bg-gray-800/50 transition-all duration-300">
-        <Briefcase className="w-8 h-8 mb-3 mx-auto text-blue-400" />
-        <h3 className="font-semibold mb-2 text-lg">Professional</h3>
-        <p className="text-sm text-gray-400">5+ years of industry experience</p>
-      </div>
-      <div className="bg-gray-800/30 backdrop-blur-sm p-6 rounded-lg hover:bg-gray-800/50 transition-all duration-300">
-        <Coffee className="w-8 h-8 mb-3 mx-auto text-blue-400" />
-        <h3 className="font-semibold mb-2 text-lg">Passionate</h3>
-        <p className="text-sm text-gray-400">Committed to continuous learning</p>
-      </div>
-      </div>
+            <div className="bg-gray-800/30 backdrop-blur-sm p-6 rounded-lg hover:bg-gray-800/50 transition-all duration-300">
+              <GraduationCap className="w-8 h-8 mb-3 mx-auto text-blue-400" />
+              <h3 className="font-semibold mb-2 text-lg">Undergraduate</h3>
+              <p className="text-sm text-gray-400">KL University</p>
+              <p className="text-xs text-gray-500">2022-2026</p>
+            </div>
+            <div className="bg-gray-800/30 backdrop-blur-sm p-6 rounded-lg hover:bg-gray-800/50 transition-all duration-300">
+              <BookOpen className="w-8 h-8 mb-3 mx-auto text-blue-400" />
+              <h3 className="font-semibold mb-2 text-lg">Intermediate</h3>
+              <p className="text-sm text-gray-400">Narayana Junior College</p>
+              <p className="text-xs text-gray-500">2020-2022</p>
+            </div>
+            <div className="bg-gray-800/30 backdrop-blur-sm p-6 rounded-lg hover:bg-gray-800/50 transition-all duration-300">
+              <School className="w-8 h-8 mb-3 mx-auto text-blue-400" />
+              <h3 className="font-semibold mb-2 text-lg">Schooling</h3>
+              <p className="text-sm text-gray-400">Sri Vivekanda Em High School</p>
+              <p className="text-xs text-gray-500">2019-2020</p>
+            </div>
+          </div>
         </div>
+        
       </Section>
 
      {/* About Section */}
-<Section id="about-me" title="About Me" className="py-16 bg-black-900">
-<div className="flex justify-center">
-  <div className="container mx-auto grid lg:grid-cols-2 gap-12 items-center px-6 md:px-12">
-    {/* Image Section */}
-    <div className="flex justify-center relative">
-      <img
-        src="/src/images/profile.png"
-        alt="Profile"
-        className="w-80 h-80 md:w-96 md:h-96 object-cover rounded-full shadow-lg border-4 border-yellow-500 transform hover:scale-105 transition-transform duration-300"
-      />
-      <div className="absolute -bottom-4 -right-4 bg-gradient-to-r from-pink-500 to-yellow-500 rounded-full w-20 h-20 flex items-center justify-center text-white font-semibold text-xl shadow-lg">
-        Hello!
-    </div>
-
-    </div>
+     <Section id="about-me" title="About Me" className="py-16 bg-gradient-to-b from-black-900 via-gray-900 to-black-900 text-gray-100">
+  <div className="flex justify-center">
+    <div className="container mx-auto grid lg:grid-cols-2 gap-12 items-center px-6 md:px-12">
+      {/* Image Section */}
+      <div className="flex justify-center relative">
+        <img
+          src="/src/images/profile.png"
+          alt="Profile"
+          className="w-80 h-80 md:w-96 md:h-96 object-cover rounded-full shadow-xl border-4 border-yellow-500 transform hover:scale-105 transition-transform duration-300"
+        />
+        <div className="absolute -bottom-4 -right-4 bg-gradient-to-r from-pink-500 to-yellow-500 rounded-full w-20 h-20 flex items-center justify-center text-white font-semibold text-xl shadow-lg animate-bounce">
+          Hello!
+        </div>
+      </div>
     
     {/* Text Section */}
     <div>
@@ -133,7 +138,7 @@ function App() {
 
 
      {/* Projects Section */}
-     <Section id="projects" title="Featured Projects">
+     <Section id="projects" title="Projects">
   <div className="grid grid-cols-1 md:grid-cols-2 gap-8"> {/* Two cards per column */}
     {[
       {
@@ -226,84 +231,65 @@ function App() {
 
 {/* Certifications Section */}
 <Section id="certifications" title="Certifications">
-  <div className="grid grid-cols-1 md:grid-cols-1 gap-8">
-  <div className="relative bg-gray-800/50 backdrop-blur-md p-6 rounded-lg min-h-[200px] w-[60%] mx-auto transition-transform transform hover:scale-105 hover:shadow-lg animate__animated animate__fadeIn animate__delay-0.5s">
-  <h3 className="text-xl font-semibold text-yellow-500 mb-4">Red Hat Certified Enterprise Application Developer</h3>
-  <p className="text-gray-300">Issue Date : September 23, 2024</p>
-  <p className="text-gray-300">Expired Date : September 23, 2027</p>
-  <a 
-    href="https://www.credly.com/badges/675b0c0e-651b-4022-a414-83835e99c0da/" 
-    target="_blank" 
-    rel="noopener noreferrer" 
-    className="flex items-center text-sm text-yellow-400 hover:underline absolute bottom-4 right-4"
-  >
-    Certification link
-    <svg 
-      xmlns="http://www.w3.org/2000/svg" 
-      className="w-4 h-4 ml-1 text-yellow-400" 
-      fill="none" 
-      viewBox="0 0 24 24" 
-      stroke="currentColor"
-    >
-      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7h5m0 0v5m0-5L10 17m0 0H5m5 0v5" />
-    </svg>
-  </a>
-</div>
-
-
-<div className="relative bg-gray-800/50 backdrop-blur-md p-6 rounded-lg min-h-[200px] w-[60%] mx-auto transition-transform transform hover:scale-105 hover:shadow-lg animate__animated animate__fadeIn animate__delay-0.5s">
-  <h3 className="text-xl font-semibold text-yellow-500 mb-4">Automation Anywhere Certified Essentials RPA Professional</h3>
-  <p className="text-gray-300">Issued Date : September 27, 2024</p>
-  <a 
-    href="https://certificates.automationanywhere.com/5f394fa5-eeaf-4164-afcf-e055b0fa6caf##gs.fnkyiw" 
-    target="_blank" 
-    rel="noopener noreferrer" 
-    className="flex items-center text-sm text-yellow-400 hover:underline absolute bottom-4 right-4"
-  >
-    Certification link
-    <svg 
-      xmlns="http://www.w3.org/2000/svg" 
-      className="w-4 h-4 ml-1 text-yellow-400" 
-      fill="none" 
-      viewBox="0 0 24 24" 
-      stroke="currentColor"
-    >
-      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7h5m0 0v5m0-5L10 17m0 0H5m5 0v5" />
-    </svg>
-  </a>
-</div>
-
-
-<div className="relative bg-gray-800/50 backdrop-blur-md p-6 rounded-lg min-h-[200px] w-[60%] mx-auto transition-transform transform hover:scale-105 hover:shadow-lg animate__animated animate__fadeIn animate__delay-0.5s">
-  <h3 className="text-xl font-semibold text-yellow-500 mb-4">SQL(Basic) </h3>
-  <p className="text-gray-300">Issued Date : May 17, 2024</p>
-  <a 
-    href="https://www.hackerrank.com/certificates/a76f39f2a4b5" 
-    target="_blank" 
-    rel="noopener noreferrer" 
-    className="flex items-center text-sm text-yellow-400 hover:underline absolute bottom-4 right-4"
-  >
-    Certification link
-    <svg 
-      xmlns="http://www.w3.org/2000/svg" 
-      className="w-4 h-4 ml-1 text-yellow-400" 
-      fill="none" 
-      viewBox="0 0 24 24" 
-      stroke="currentColor"
-    >
-      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7h5m0 0v5m0-5L10 17m0 0H5m5 0v5" />
-    </svg>
-  </a>
-</div>
-
-    {/* Add more certifications in separate columns if needed */}
+  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 gap-8">
+    {/* Certification Card */}
+    {[
+      {
+        title: 'Red Hat Certified Enterprise Application Developer',
+        issueDate: 'September 23, 2024',
+        expiryDate: 'September 23, 2027',
+        link: 'https://www.credly.com/badges/675b0c0e-651b-4022-a414-83835e99c0da/',
+      },
+      {
+        title: 'Automation Anywhere Certified Essentials RPA Professional',
+        issueDate: 'September 27, 2024',
+        expiryDate: null,
+        link: 'https://certificates.automationanywhere.com/5f394fa5-eeaf-4164-afcf-e055b0fa6caf##gs.fnkyiw',
+      },
+      {
+        title: 'SQL (Basic)',
+        issueDate: 'May 17, 2024',
+        expiryDate: null,
+        link: 'https://www.hackerrank.com/certificates/a76f39f2a4b5',
+      },
+    ].map((cert, index) => (
+      <div
+        key={index}
+        className="relative bg-gray-800/50 backdrop-blur-md p-6 rounded-lg min-h-[200px] w-full mx-auto transition-transform transform hover:scale-105 hover:shadow-lg animate__animated animate__fadeIn animate__delay-0.5s"
+      >
+        <h3 className="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-yellow-400 mb-4">{cert.title}</h3>
+        <p className="text-gray-300">Issued Date: {cert.issueDate}</p>
+        {cert.expiryDate && <p className="text-gray-300">Expired Date: {cert.expiryDate}</p>}
+        <div className="absolute bottom-4 right-4">
+          <a
+            href={cert.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center text-sm text-yellow-400 hover:underline"
+          >
+            Certification link
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="w-4 h-4 ml-1 text-yellow-400"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M13 7h5m0 0v5m0-5L10 17m0 0H5m5 0v5"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+    ))}
   </div>
+
+  <Footer />
 </Section>
-
-
-
-
-
     </div>
   );
 }

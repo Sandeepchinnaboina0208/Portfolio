@@ -139,60 +139,62 @@ function App() {
 
      {/* Projects Section */}
      <Section id="projects" title="Projects">
-  <div className="grid grid-cols-1 md:grid-cols-2 gap-8"> {/* Two cards per column */}
-    {[
-      {
-        id: 1,
-        title: "Astrology Prediction",
-        description: "A web app to prevent proxy attendance using QR technology, built with Django.",
-        image: "/src/images/asro1.webp",
-        projectLink: "https://github.com/Sandeepchinnaboina0208/AstrologyPredictions",
-        githubLink: "https://github.com/Sandeepchinnaboina0208/AstrologyPredictions",
-      },
-      {
-        id: 2,
-        title: "Airline Reservation System",
-        description: "A React-based system for seamless flight booking and management.",
-        image: "/src/images/areoplane.jpeg",
-        projectLink: "https://github.com/Sandeepchinnaboina0208/Airline-Reservation-Frontend",
-        githubLink: "https://github.com/Sandeepchinnaboina0208/Airline-Reservation-Frontend",
-      },
-      {
-        id: 3,
-        title: "Online Workshop Management",
-        description: "A Java Full Stack solution for scheduling and managing workshops.",
-        image: "/src/images/workshop.png",
-        projectLink: "https://github.com/Sandeepchinnaboina0208/WMS_Frontend",
-        githubLink: "https://github.com/Sandeepchinnaboina0208/WMS_Frontend",
-      },
-    ].map((project) => (
-      <div
-        key={project.id}
-        className="bg-gray-800/50 backdrop-blur-md rounded-lg overflow-hidden hover:scale-105 transform transition-all duration-300 shadow-lg"
-      >
-        <img
-          src={project.image}
-          alt={project.title}
-          className="w-full h-56 object-cover" // Adjusted image size
-        />
-        <div className="p-6">
-          <h3 className="text-2xl font-bold text-white mb-2">{project.title}</h3>
-          <p className="text-gray-300 mb-4">{project.description}</p>
-          <div className="flex justify-between items-center">
-            <a
-              href={project.projectLink}
-              className="text-blue-400 hover:text-blue-300 flex items-center gap-2"
-            >
-              View Project <ExternalLink size={16} />
-            </a>
-            <a href={project.githubLink} className="text-gray-400 hover:text-white">
-              <Github size={20} />
-            </a>
-          </div>
+     <div className="grid grid-cols-1 md:grid-cols-2 gap-8"> {/* Two cards per column */}
+  {[
+    {
+      id: 1,
+      title: "Astrology Prediction",
+      description: "A web app to prevent proxy attendance using QR technology, built with Django.",
+      image: "https://wallpapers.com/images/hd/scorpio-1920-x-1080-background-abbk8whfhh8dr1mc.jpg", // Replace with the actual online image link
+      projectLink: "https://github.com/Sandeepchinnaboina0208/AstrologyPredictions",
+      githubLink: "https://github.com/Sandeepchinnaboina0208/AstrologyPredictions",
+    },
+    {
+      id: 2,
+      title: "Airline Reservation System",
+      description: "A React-based system for seamless flight booking and management.",
+      image: "https://tse1.mm.bing.net/th?id=OIP.Y_j6jhM9Zb8qET8tX1UogwHaEK&rs=1&pid=ImgDetMain", // Replace with the actual online image link
+      projectLink: "https://github.com/Sandeepchinnaboina0208/Airline-Reservation-Frontend",
+      githubLink: "https://github.com/Sandeepchinnaboina0208/Airline-Reservation-Frontend",
+    },
+    {
+      id: 3,
+      title: "Online Workshop Management",
+      description: "A Java Full Stack solution for scheduling and managing workshops.",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLaiVq-dWmHy0BgqlK0r6E-m4ok7PjyZR7mg&s", // Replace with the actual online image link
+      projectLink: "https://github.com/Sandeepchinnaboina0208/WMS_Frontend",
+      githubLink: "https://github.com/Sandeepchinnaboina0208/WMS_Frontend",
+    },
+  ].map((project) => (
+    <div
+      key={project.id}
+      className="bg-gray-800/50 backdrop-blur-md rounded-lg overflow-hidden hover:scale-105 transform transition-all duration-300 shadow-lg"
+    >
+      <img
+        src={project.image}
+        alt={project.title}
+        className="w-full h-56 object-cover" // Adjusted image size
+      />
+      <div className="p-6">
+        <h3 className="text-2xl font-bold text-white mb-2">{project.title}</h3>
+        <p className="text-gray-300 mb-4">{project.description}</p>
+        <div className="flex justify-between items-center">
+          <a
+            href={project.projectLink}
+            className="text-blue-400 hover:text-blue-300 flex items-center gap-2"
+          >
+            View Project <ExternalLink size={16} />
+          </a>
+          <a href={project.githubLink} className="text-gray-400 hover:text-white">
+            <Github size={20} />
+          </a>
         </div>
       </div>
-    ))}
-  </div>
+    </div>
+  ))}
+</div>
+
+        
 </Section>
 
 

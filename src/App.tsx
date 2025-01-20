@@ -161,7 +161,7 @@ function App() {
       id: 3,
       title: "Online Workshop Management",
       description: "A Java Full Stack solution for scheduling and managing workshops.",
-      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLaiVq-dWmHy0BgqlK0r6E-m4ok7PjyZR7mg&s", // Replace with the actual online image link
+      image: "https://cdn.plainconcepts.com/wp-content/uploads/2012/01/workshop-sincronico.jpg", // Replace with the actual online image link
       projectLink: "https://github.com/Sandeepchinnaboina0208/WMS_Frontend",
       githubLink: "https://github.com/Sandeepchinnaboina0208/WMS_Frontend",
     },

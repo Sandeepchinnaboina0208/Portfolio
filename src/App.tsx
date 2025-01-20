@@ -107,7 +107,7 @@ function App() {
       {/* Image Section */}
       <div className="flex justify-center relative">
         <img
-          src="/src/images/profile.png"
+          src="https://media-hosting.imagekit.io//2cc3930c328d4e7f/profile.png?Expires=1831977254&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=qK-dUzH7O1lAT8hSReLBFGl1brYwYz-bDb88hIS4zWGgPlSUcTqMqO4yqns3an~lFj7A2ziEgIR3f7CmLl2prolS~gRJ1BYEaES2dgQZ8VR-fPZdNppothuiau4xRnVbyPZOln4OfzPJ~vSS2RTyWJodHqMREPTBDXHHoAa9fl8nQcMyOLCB2-6dd2Kfv5zUz4gBdSV~TOSVkdYLCMq09xVwHvcawdQrCA-IeQHIxUyBwZ5wxnwvPtVvmm4jZwIPaJ~v-80U5OfF9qaEy7J77xxp1A4Urb2ed-f1I7t6LkZr8dsZAFoj3IK6yWImc9KtTeQsw0BxoGIbx49kh9vFYg__"
           alt="Profile"
           className="w-80 h-80 md:w-96 md:h-96 object-cover rounded-full shadow-xl border-4 border-yellow-500 transform hover:scale-105 transition-transform duration-300"
         />

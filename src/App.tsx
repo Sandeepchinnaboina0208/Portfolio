@@ -4,10 +4,6 @@ import BackgroundVideo from './components/BackgroundVideo';
 import Section from './components/Section';
 import TypeWriter from './components/TypeWriter';
 import Footer from './components/Footer';
-import profileImage from './images/profile.png'; 
-import workshopImage from './images/workshop.png'; 
-import astroImage from './images/asro1.webp'; 
-import airhopImage from './images/areoplane.jpeg'; 
 import { 
   Github, 
   Linkedin, 
@@ -49,7 +45,7 @@ function App() {
             <TypeWriter
               words={[
                 { text: "Full Stack Developer", colorClass: "text-red-500" },
-                { text: "Data Science Enthusiast", colorClass: "text-green-500" },
+                { text: "Data Science Enthusiastic", colorClass: "text-green-500" },
                 { text: "Problem Solver", colorClass: "text-yellow-500" },
                 { text: "Tech Innovator", colorClass: "text-purple-500" },
               ]}
@@ -123,10 +119,10 @@ function App() {
     </h2>
 
       <p className="text-lg text-gray-300 mb-6 leading-relaxed">
-        I'm a driven and enthusiastic full-stack developer with expertise in building dynamic and user-friendly web applications. With proficiency in technologies like React, Django, and cloud-based solutions, I love transforming complex ideas into seamless digital experiences.
+        I'm a driven and enthusiastic full-stack developer with expertise in building dynamic and user-friendly web applications. With proficiency in technologies like React, Django, I love transforming complex ideas into seamless digital experiences.
       </p>
       <p className="text-lg text-gray-300 mb-6 leading-relaxed">
-        Beyond coding, I enjoy exploring emerging technologies, mentoring aspiring developers, and contributing to open-source projects. I'm passionate about creating impactful solutions that make a difference in the tech community.
+        I enjoy exploring emerging technologies,and contributing to open-source projects. I'm passionate about creating impactful solutions that make a difference in the tech community.
       </p>
       <div className="flex space-x-4">
        
@@ -144,7 +140,7 @@ function App() {
     {
       id: 1,
       title: "Astrology Prediction",
-      description: "A web app to prevent proxy attendance using QR technology, built with Django.",
+      description: "A web application that provides astrology predictions based on user input.",
       image: "https://wallpapers.com/images/hd/scorpio-1920-x-1080-background-abbk8whfhh8dr1mc.jpg", // Replace with the actual online image link
       projectLink: "https://github.com/Sandeepchinnaboina0208/AstrologyPredictions",
       githubLink: "https://github.com/Sandeepchinnaboina0208/AstrologyPredictions",

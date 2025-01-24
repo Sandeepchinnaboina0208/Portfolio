@@ -141,7 +141,7 @@ function App() {
       id: 1,
       title: "Astrology Prediction",
       description: "A web application that provides astrology predictions based on user input.",
-      image: "https://wallpapers.com/images/hd/scorpio-1920-x-1080-background-abbk8whfhh8dr1mc.jpg", // Replace with the actual online image link
+      image: "https://media-hosting.imagekit.io//d9bee8f1d800413f/astrologo.png?Expires=1832335788&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=KrSfzrhUiYTO2avRIH8g0LzXJOkcZAhWYIBQSIwjNCkhoiBlMO~EL1ixOG6o3UxvgwF6YeUWMGEwVUfxuV3YJPFh12ffATFm7QAmEcwkbp1bb8rRqUSz2mABHmHcFeLqkh92OZp0xXSZHXI7MTsUVy2kDWCD-Ay5RzlvOCwt2iwQ2gwUsJ3xPtegWWa9jTNUW78nzx1wNCeLiNytcHFaKl3m-wn2TKzLisSOB5RwxG4Apw6OwSxJPb0q3a65-7wpPEZ85NyrtdvG7NhGeqolRk7FiBwIIe~65~vbAQ0gqa4HdkjVZWZpOgg1SA2iTIvf~9G3vkwMtf8SqglTcnwBmQ__", // Replace with the actual online image link
       projectLink: "https://github.com/Sandeepchinnaboina0208/AstrologyPredictions",
       githubLink: "https://github.com/Sandeepchinnaboina0208/AstrologyPredictions",
     },
@@ -149,7 +149,7 @@ function App() {
       id: 2,
       title: "Airline Reservation System",
       description: "A React-based system for seamless flight booking and management.",
-      image: "https://tse1.mm.bing.net/th?id=OIP.Y_j6jhM9Zb8qET8tX1UogwHaEK&rs=1&pid=ImgDetMain", // Replace with the actual online image link
+      image: "https://media-hosting.imagekit.io//1b2c51affab94e30/airlogo.png?Expires=1832337508&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=RbolFRutLnWQ4P-DI-06ApVrG9zMW2HChpwYHTqBW0X5Nvaf0YjRo6IC1Fgf7he0trh5Oml2qPtoOTzCaxGtuln0OkYVEMbgSbb64VDvBonwmiQxd029nM1EKgbiYURN0ZRCkYumZPTJTHz19-VcBXKTNs1AOQmYQIFpjAzQqHAJGI5iSdq8TKW0i8gC3xrMT0YJKrf1vM~pzzq8J0itTNclwmgtGvsF0RrIVenN124YEfumHe3xZRiB~Ypp1HXMKszXBFc3a7ba4H81EIUESwiaLjINj1JZf6Fj8z7WZL0HrhjvsMIQA7US~Wz9xBSXd0CFod6WO0sqeC7XDOEYpA__", // Replace with the actual online image link
       projectLink: "https://github.com/Sandeepchinnaboina0208/Airline-Reservation-Frontend",
       githubLink: "https://github.com/Sandeepchinnaboina0208/Airline-Reservation-Frontend",
     },
@@ -157,7 +157,7 @@ function App() {
       id: 3,
       title: "Online Workshop Management",
       description: "A Java Full Stack solution for scheduling and managing workshops.",
-      image: "https://cdn.plainconcepts.com/wp-content/uploads/2012/01/workshop-sincronico.jpg", // Replace with the actual online image link
+      image: "https://media-hosting.imagekit.io//7195790dedb84768/workshoplogo.png?Expires=1832337713&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=YpGwT2huM9uwvsKILsG3Z4mySwym1KH3vbA-xI3kkmos3m2SZ6Y~9iZAgVk8D-xyFasxSMVrNhipTrK9Uoe4jNYH77-lbf5tm0M7LWpZzcgJJfE2xmi6YjY-RO3fMM-W7R08lxhUrVBf32Csobnh9ooYnM4HVpcb4igCVDuKU7VLTMiyv45D2l5z7NyVtBJjB2DHJZGRxUD2QCHuwozha7VRuhIqbVZmz-5TU8szmub8bnzOCQ7xpOyjOClJT7Rwp1PbWzdldzwyUXn~yUX~V1QvSQOTD7fl5QeAQtnHOr0VWPznFNpdXug066Rbti60Iwd~hEK4lxM51vne05A9Qw__", // Replace with the actual online image link
       projectLink: "https://github.com/Sandeepchinnaboina0208/WMS_Frontend",
       githubLink: "https://github.com/Sandeepchinnaboina0208/WMS_Frontend",
     },

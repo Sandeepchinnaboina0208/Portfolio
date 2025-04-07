@@ -245,6 +245,12 @@ function App() {
         link: 'https://certificates.automationanywhere.com/5f394fa5-eeaf-4164-afcf-e055b0fa6caf##gs.fnkyiw',
       },
       {
+        title: 'Oracle Cloud Infrastructure 2024 Generative AI Certified Professional',
+        issueDate: 'July 31, 2024',
+        expiryDate: null,
+        link: 'https://drive.google.com/file/d/1zVPCF2gE4O-pVtZCjTa-q_mQqmODFDNP/view',
+      },
+      {
         title: 'SQL (Basic)',
         issueDate: 'May 17, 2024',
         expiryDate: null,

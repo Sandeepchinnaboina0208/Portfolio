@@ -161,6 +161,14 @@ function App() {
       projectLink: "https://github.com/Sandeepchinnaboina0208/WMS_Frontend",
       githubLink: "https://github.com/Sandeepchinnaboina0208/WMS_Frontend",
     },
+    {
+      id: 3,
+      title: "Task Management System",
+      description: "A web-based Task Management Application designed to help users efficiently create, track, and organize tasks with a clean and responsive interface.",
+      image: "https://media-hosting.imagekit.io/a8243dec01d84cc9/bc28003b-ea5d-422f-aa63-2b9f760944fd.png?Expires=1838614472&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=lgWREPoICnRvND0u1b4dQqtcmVaOsw7nfpOY3AY~gy6gwK1LGp-cPpPjmsZObzOHczaSswwpCbN0YhuQXRUhitQKDF~ooEdmltSja8HLoTc~C32AHdKy0C92gd7fok1wxiH77r5T1vqkfR8gcNkuCkMdbCI8QuwRqAVn8qdVDIPjfttH3eegiq0Pc9NPvqiRJpfEgyCYv-TLCw~tH9y-Kvw0j2v-epBgsQEFX0eHdzwUH~wplXw97vZCgZc8dnO5XdWhdVD-rMHvHcHFEpXCFH-7~7YiG~qhPP-v~WaMkjQA~-7EN-1myP6x57h5Koz3hV96BrCj0zKDCcffYyUDGw__", // Replace with the actual online image link
+      projectLink: "https://github.com/Sandeepchinnaboina0208/Task-Management-Application",
+      githubLink: "https://github.com/Sandeepchinnaboina0208/Task-Management-Application",
+    },
   ].map((project) => (
     <div
       key={project.id}
